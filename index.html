@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishika V - Frontend & PHP Developer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="bg-gradient"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Rishika V</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Frontend & PHP Developer</h1>
+            <p>Building beautiful, responsive web experiences with strong UI/UX design skills and full-stack
+                capabilities.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Hi, I'm Rishika V</h3>
+                <p>I’m Rishika V — a developer who started with a love for clean design and grew into someone who enjoys
+                    building complete digital products. My interest in UI/UX taught me how people interact with
+                    interfaces, while full-stack development showed me how the logic behind a screen brings real value.
+                </p>
+                <p>Today, I work across both — designing intuitive interfaces in Figma and turning them into functional
+                    applications using HTML, CSS, JavaScript, Bootstrap, React, and PHP–MySQL. I’ve built full-stack
+                    projects like FeetHub, created 25+ screens for UX case studies, and worked on real-world interfaces
+                    during my internship.</p>
+                <p>I’m always excited to solve problems, learn new technologies, and create products that feel
+                    effortless for users.</p>
+                <a href="./assets/RishikaV.pdf" class="btn btn-primary" download>Download Resume</a>
+            </div>
+            <div class="profile-image-container">
+                <img src="./assets/Rishikaa.png" alt="Rishika V" class="profile-image">
+                <div class="profile-image-overlay"></div>
+            </div>
+        </div>
+        <div style="margin-top: 4rem;">
+            <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 2rem; color: var(--primary);">Skills &
+                Expertise</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4><i class="bi bi-palette"></i> UI/UX Design</h4>
+                </div>
+                <div class="skill-card">
+                    <h4><i class="bi bi-code-slash"></i> Frontend Dev</h4>
+                </div>
+                <div class="skill-card">
+                    <h4><i class="bi bi-gear"></i> Backend Dev</h4>
+                </div>
+                <div class="skill-card">
+                    <h4><i class="bi bi-phone"></i> Responsive Design</h4>
+                </div>
+                <div class="skill-card">
+                    <h4><i class="bi bi-database"></i> Database</h4>
+                </div>
+                <div class="skill-card">
+                    <h4><i class="bi bi-wrench"></i> Version Control</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-filter">
+            <button class="filter-btn active" onclick="showProjects('development')">Development</button>
+            <button class="filter-btn" onclick="showProjects('design')">Design</button>
+        </div>
+
+        <!-- Development Projects -->
+        <div id="development-projects" class="projects-container">
+            <div class="dev-project-card">
+                <span class="project-tag">Full Stack</span>
+                <h3>FeetHub Online Shopping</h3>
+                <p>A complete e-commerce platform with multi-user dashboards (Admin, Sub-Admin, Merchant), CRUD
+                    operations, dynamic cart functionality, and order tracking features.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">JQuery</span>
+                    <span class="tech-badge">PHP</span>
+                    <span class="tech-badge">MySQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/FeetHub-Online-Footwear.git" target="_blank"><i
+                            class="bi bi-link-45deg"></i> GitHub</a>
+                    <a href="#" class="btn-small">View Document</a>
+                </div>
+            </div>
+
+            <div class="dev-project-card">
+                <span class="project-tag">Front end</span>
+                <h3>FeetHub</h3>
+                <p>FeetHub is a responsive shoe-shopping e-commerce website offering a clean, interactive browsing
+                    experience. Built using HTML, CSS, JavaScript, and jQuery, it features smooth product browsing, cart
+                    management, and user-friendly purchase flow optimized for all devices.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">JQuery</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/Feet-hub.git" target="_blank"><i
+                            class="bi bi-link-45deg"></i> GitHub</a>
+                    <a href="https://rishikav303.github.io/Feet-hub/" target="_blank" class="btn-small">View Live</a>
+                </div>
+            </div>
+
+            <div class="dev-project-card">
+                <span class="project-tag">Front end</span>
+                <h3>Report Box</h3>
+                <p>A fully responsive corporation complaint website ReportBox created using only HTML and CSS. Designed
+                    from scratch based on my UX research and UI layouts. Focused on clarity, easy navigation, and
+                    user-friendly information flow.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/Corporation-Complaint.git" target="_blank"><i
+                            class="bi bi-link-45deg"></i> GitHub</a>
+                    <a href="https://rishikav303.github.io/Corporation-Complaint/" class="btn-small"
+                        target="_blank">View Live</a>
+                </div>
+            </div>
+
+            <div class="dev-project-card">
+                <span class="project-tag">Front end</span>
+                <h3>HomeNest Landing Page</h3>
+                <p>HomeNest is a Bootstrap-based landing page that delivers a clean, modern home listing UI. The layout
+                    is fully responsive with organized sections and easy navigation. Highlights my frontend skills with
+                    Bootstrap and custom CSS.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/homenest.git" target="_blank"><i
+                            class="bi bi-link-45deg"></i> GitHub</a>
+                    <a href="https://rishikav303.github.io/homenest/" target="_blank" class="btn-small">View Live</a>
+                </div>
+            </div>
+
+            <div class="dev-project-card">
+                <span class="project-tag">Front end</span>
+                <h3>Starbucks Responsive UI</h3>
+                <p>A Starbucks-themed responsive webpage designed using HTML, Bootstrap, and CSS. Features smooth layout
+                    flow, structured content, and mobile-first design. Highlights my skills in creating visually
+                    appealing, responsive websites.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/starbucks.git" target="_blank"><i
+                            class="bi bi-link-45deg"></i> GitHub</a>
+                    <a href="https://rishikav303.github.io/starbucks/" target="_blank" class="btn-small">View Live</a>
+                </div>
+            </div>
+
+            <div class="dev-project-card">
+                <span class="project-tag">Front end</span>
+                <h3>Tesla Landing Page Clone</h3>
+                <p>A static Tesla homepage clone built using only HTML and CSS. This version focuses on clean layout
+                    structure and design accuracy, but it is not responsive. The project highlights my fundamentals in
+                    page layout, visual styling, and recreating real-world UI designs.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/tesla.git" target="_blank"><i class="bi bi-link-45deg"></i>
+                        GitHub</a>
+                    <a href="https://rishikav303.github.io/tesla/" target="_blank" class="btn-small">View Live</a>
+                </div>
+            </div>
+
+            <div class="dev-project-card">
+                <span class="project-tag">Front end</span>
+                <h3>Sunny Lake </h3>
+                <p>A calm, resort-style landing page designed with HTML and CSS. Features visually appealing sections,
+                    smooth layout spacing, and a relaxing theme. Built with a focus on clean UI and a pleasant browsing
+                    experience.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/sunny-lake.git" target="_blank"><i
+                            class="bi bi-link-45deg"></i>GitHub</a>
+                    <a href="https://rishikav303.github.io/sunny-lake/" target="_blank" class="btn-small">View Live</a>
+                </div>
+            </div>
+
+            <div class="dev-project-card">
+                <span class="project-tag">Front end</span>
+                <h3>Lugx </h3>
+                <p>A bold gaming landing page built using pure HTML and CSS, inspired by the LUGX design. Features hero
+                    banners, product sections, and clean UI blocks arranged with clear hierarchy. Showcases my ability
+                    to recreate modern themed layouts with strong visual appeal.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/lugx.git" target="_blank"><i
+                            class="bi bi-link-45deg"></i>GitHub</a>
+                    <a href=" https://rishikav303.github.io/lugx/" target="_blank" class="btn-small">View Live</a>
+                </div>
+            </div>
+
+            <div class="dev-project-card">
+                <span class="project-tag">Front end</span>
+                <h3>Divotion Mailer Website</h3>
+                <p>A fully designed mailer-style webpage created using pure HTML and CSS. Features a clean layout, clear
+                    content blocks, and a professional email-template structure. Showcases my ability to build modern
+                    marketing mailers with neat visual hierarchy.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/RishikaV303/Divotion.-.git" target="_blank"><i
+                            class="bi bi-link-45deg"></i> GitHub</a>
+                    <a href="https://rishikav303.github.io/Divotion.-/" target="_blank" class="btn-small">View Live</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Design Projects from Behance -->
+        <div id="design-projects" class="behance-grid" style="display: none;">
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <img src="./assets/report-box-casestudy.jpg" alt="">
+                </div>
+                <div class="behance-card-content">
+                    <h3>Complaint Reporting App — UX / UI Case Study</h3>
+                    <p>A real-world problem transformed into a practical complaint-reporting solution. This UX/UI case
+                        study showcases my end-to-end design process — from identifying user pain points to delivering a
+                        clean, intuitive interface.</p>
+                    <a href="https://www.behance.net/gallery/227851919/Complaint-Reporting-App" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image">
+                        <img src="./assets/banner-noodles.png" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>Animated banner design for “Noodlelicious”</h3>
+                    <p>A vibrant animated banner designed for “Noodlelicious,” focusing on smooth motion, attractive
+                        visuals, and a clean layout. This UI task highlights my ability to combine branding, animation,
+                        and engaging digital presentation.</p>
+                    <a href="https://www.behance.net/gallery/238336807/NOODLELICIOUS-Banner" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image">
+                        <img src="./assets/banner-cupcake.jpg" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>Sweet Delights – Animated UI Task</h3>
+                    <p>A playful and modern animated banner created for Sweet Delights, focusing on delightful
+                        transitions, soft colors, and a neat layout. This UI task showcases my ability to use motion to
+                        enhance brand storytelling.</p>
+                    <a href="https://www.behance.net/gallery/238337733/SWEET-DELIGHTS-Bannerr" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image">
+                        <img src="./assets/banner-showtime.png" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>SHOWTIME – Banner for Movie Ticket Booking</h3>
+                    <p>A vertical accordion banner for “SHOWTIME,” designed for a movie-ticket booking interface. It
+                        uses an accordion layout for clear information flow, smooth transitions, and a modern, engaging
+                        UI experience.</p>
+                    <a href="https://www.behance.net/gallery/238338643/SHOWTIME-Banner" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image">
+                        <img src="./assets/reportbox-website.png" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>Report Box – Website UI Design</h3>
+                    <p>A UX-focused information website for the “Report Box” application, designed to clearly present
+                        its purpose and key features. The layout offers structured content and intuitive navigation with
+                        a clean, modern visual style.</p>
+                    <a href="https://www.behance.net/gallery/238347107/Report-Box-Web-Design" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image">
+                        <img src="./assets/feethub-fe.jpg" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>FeetHub – Online Footwear Marketplace UI & Design</h3>
+                    <p>An e-commerce website created for FeetHub, offering a clean UI and smooth shopping experience.
+                        The design highlights clear product display, easy navigation, and an aesthetic, user-friendly
+                        layout.</p>
+                    <a href="https://www.behance.net/gallery/238347491/FeetHub-Step-Into-Style-Online-Footwear-Marketplace"
+                        target="_blank" class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image">
+                        <img src="./assets/petclinic-landingpage.jpg" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>Pet Healer – Landing Page UI Design</h3>
+                    <p>A clean, user-centric landing page design for Pet Healer, focused on clear information delivery
+                        and aesthetic appeal. The layout balances simplicity and style to introduce the service
+                        effectively and guide users with intuitive navigation.</p>
+                    <a href="https://www.behance.net/gallery/238404447/Pet-Healer-Landing-Page" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image">
+                        <img src="./assets/travel-landingpage.jpg" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>Destigo Travel – Travel Landing Page UI Design</h3>
+                    <p>A clean and engaging landing page designed for Destigo Travel, showcasing destinations with
+                        clarity and appealing visuals. The layout blends modern travel aesthetics with smooth navigation
+                        for an effortless browsing experience. </p>
+                    <a href="https://www.behance.net/gallery/238405493/Destigo-Travel-Landing-Page" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image adjust">
+                        <img src="./assets/ui-coffee.jpg" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>Choice Coffee – Mobile Ordering UI</h3>
+                    <p>A mobile UI concept for quick coffee ordering, allowing users to browse, customize, and place
+                        orders with ease. The design focuses on clean visuals and intuitive navigation for a smooth,
+                        time-saving experience.</p>
+                    <a href="https://www.behance.net/gallery/238495233/Choice-Coffee-UI-Mobile-Screen" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image adjust">
+                        <img src="./assets/ui-car.jpg" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>RIDEZILLA – Mobile Ride-Booking App UI Design</h3>
+                    <p>A clean and modern mobile UI for RIDEZILLA — designed to make ride booking simple and intuitive.
+                        The screens focus on easy navigation, clear ride flow, and user-friendly layout to ensure a
+                        smooth booking experience.</p>
+                    <a href="https://www.behance.net/gallery/238495589/RIDEZILLA-UI-Mobile-Screen" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image adjust">
+                        <img src="./assets/ui-food.jpg" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>FOODI – Mobile Food Ordering UI Design</h3>
+                    <p>A clean and intuitive mobile UI for FOODI, designed to help users browse menus, customize dishes,
+                        and place orders with ease. The layout combines clear visuals and smooth navigation for a
+                        seamless food-ordering experience.</p>
+                    <a href="https://www.behance.net/gallery/238495913/FOODI-UI-Mobile-Screen" target="_blank"
+                        class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+            <div class="behance-card">
+                <div class="behance-card-image">
+                    <div class="behance-card-image">
+                        <img src="./assets/feethub-be.jpg" alt="">
+                    </div>
+                </div>
+                <div class="behance-card-content">
+                    <h3>FeetHub – Full-Stack Footwear Site UI with Dashboard</h3>
+                    <p>UI screens designed for a full-stack footwear marketplace, including both user shopping flows and
+                        an admin dashboard. The layout focuses on clean structure, smooth interactions, and clear
+                        product management.</p>
+                    <a href="https://www.behance.net/gallery/238349687/FeetHub-Online-Footwear-Marketplace"
+                        target="_blank" class="behance-link">View on Behance
+                        →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-content">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3>UX/UI Design Intern</h3>
+                        <p style="color: var(--light);">Buiz Lab - Madurai</p>
+                    </div>
+                    <span class="experience-date">Mar 2025 - Apr 2025</span>
+                </div>
+                <ul>
+                    <li>Built UI for BOT (Best of Tamil Nadu) team project using HTML and CSS</li>
+                    <li>Designed and developed 5 website UIs with responsive layouts for 2 sites</li>
+                    <li>Recreated Meesho app user flow in Figma for mobile UI/UX enhancement</li>
+                    <li>Used Git and GitHub for version control and collaborative development</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="experience-content">
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3>UX/UI & Full Stack Development</h3>
+                        <p style="color: var(--light);">IMAGE Creative Education - Madurai</p>
+                    </div>
+                    <span class="experience-date">Aug 2024 - Nov 2025</span>
+                </div>
+                <ul>
+                    <li>C.Tech NSDC Certified Program in Web Development</li>
+                    <li>Specialized in UX/UI Design and Full Stack Development</li>
+                    <li>Industry-recognized certification</li>
+                    <li>Completed comprehensive curriculum covering design and development</li>
+                </ul>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3>B.E Computer Science and Engineering</h3>
+                        <p style="color: var(--light);">Latha Mathavan Engineering College - Madurai</p>
+                    </div>
+                    <span class="experience-date">Aug 2021 - May 2025</span>
+                </div>
+                <ul>
+                    <li>GPA: 7.8</li>
+                    <li>Final Year Project: Cloud Cloaking System (Data Security)</li>
+                    <li>Relevant Coursework: Web Development, Database Management, Security</li>
+                    <li>Active participant in technical clubs and coding competitions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xldqlzjr" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <input type="hidden" name="_subject" value="New Portfolio Contact from Website!">
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span><i class="bi bi-envelope"></i></span>
+                    <a href="mailto:rishikav303@gmail.com">rishikav303@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span><i class="bi bi-telephone"></i></span>
+                    <a href="tel:+916381118290">+91-63811-18290</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/rishikav303" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/RishikaV303" target="_blank"><i class="bi bi-github"></i></a>
+        </div>
+        <p>&copy; 2025 Rishika V. All rights reserved.</p>
+    </footer>
+
+    <!-- Alert Message -->
+    <div class="alert" id="alert"></div>
+
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // FormSpree Form Handler - No Page Redirect
+        document.getElementById('contactForm').addEventListener('submit', async function (e) {
+            e.preventDefault(); // Prevent default form submission
+
+            const form = e.target;
+            const formData = new FormData(form);
+            const button = form.querySelector('button[type="submit"]');
+            const originalText = button.textContent;
+
+            // Show loading state
+            button.disabled = true;
+            button.textContent = 'Sending...';
+
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    // Success - show message and reset form
+                    showAlert('Message sent successfully! I\'ll get back to you soon.', 'success');
+                    form.reset();
+                } else {
+                    // FormSpree returned error
+                    const data = await response.json();
+                    if (data.errors) {
+                        showAlert(data.errors.map(e => e.message).join(', '), 'error');
+                    } else {
+                        showAlert('Failed to send message. Please try again.', 'error');
+                    }
+                }
+            } catch (error) {
+                // Network error
+                showAlert('Network error. Please check your connection and try again.', 'error');
+            } finally {
+                // Reset button
+                button.disabled = false;
+                button.textContent = originalText;
+            }
+        });
+
+        // Alert function (already exists in your code)
+        function showAlert(message, type) {
+            const alert = document.getElementById('alert');
+            alert.textContent = message;
+            alert.className = `alert ${type} show`;
+
+            setTimeout(() => {
+                alert.classList.remove('show');
+            }, 5000);
+        }
+
+        // Project Filtering
+        function showProjects(type) {
+            const devProjects = document.getElementById('development-projects');
+            const designProjects = document.getElementById('design-projects');
+            const buttons = document.querySelectorAll('.filter-btn');
+
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            if (type === 'development') {
+                devProjects.style.display = 'grid';
+                designProjects.style.display = 'none';
+                buttons[0].classList.add('active');
+            } else {
+                devProjects.style.display = 'none';
+                designProjects.style.display = 'grid';
+                buttons[1].classList.add('active');
+
+                // Trigger animation for design cards
+                setTimeout(() => {
+                    document.querySelectorAll('.behance-card').forEach((card, index) => {
+                        card.classList.add('visible');
+                        card.style.animationDelay = `${index * 0.1}s`;
+                    });
+                }, 10);
+            }
+        }
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Scroll Animations
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section-title, .project-card, .dev-project-card, .experience-card, .about-text, .skills-grid, .profile-image-container').forEach(el => {
+            observer.observe(el);
+        });
+
+
+        // Parallax Effect on Hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero-content');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+                hero.style.opacity = 1 - scrolled / 500;
+            }
+        });
+    </script>
+</body>
+
+</html>
