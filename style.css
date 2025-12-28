@@ -791,10 +791,15 @@ footer {
 .hamburger span {
     width: 25px;
     height: 3px;
-    background: var(--light);
+    background: #fff;
     margin: 5px 0;
     border-radius: 3px;
     transition: all 0.3s;
+}
+
+/* Ensure active state lines remain white */
+.hamburger.active span {
+    background: #fff;
 }
 
 .hamburger.active span:nth-child(1) {
